@@ -84,15 +84,23 @@ ExecStart=/usr/bin/dockerd --exec-opt native.cgroupdriver=systemd
 
 ```
 
-
-
-
-
-
 ![Screenshot from 2023-10-09 15-04-48](https://github.com/C191068/Khatami_containernet/assets/89090776/eb018d2d-21b4-4f88-84f4-b529e168c848)
 
+from he third comand comes below 
 
 ![Screenshot from 2023-10-09 15-05-21](https://github.com/C191068/Khatami_containernet/assets/89090776/af1453db-97ee-4fd0-bd11-5cc2c8deb668)
+
+we paste the below
+
+
+```
+
+{
+ "cgroup-parent": "docker-engine.slice"
+}
+
+
+```
 
 
 
