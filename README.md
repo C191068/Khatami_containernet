@@ -23,13 +23,39 @@ then we kill those those process
 
 
 ![Screenshot from 2023-10-09 14-18-46](https://github.com/C191068/Khatami_containernet/assets/89090776/f840ec76-d83b-4c65-a9ce-9304f00ba582)
+the above error occures because we did not Create a custom slice file and define resources
 
 
 ![Screenshot from 2023-10-09 14-26-48](https://github.com/C191068/Khatami_containernet/assets/89090776/7a2fe5f5-d4a5-4d32-aa0f-3bd8c5fee253)
 
+
+
 ![Screenshot from 2023-10-09 14-55-56](https://github.com/C191068/Khatami_containernet/assets/89090776/4e392bca-e4f9-4f4a-979a-f6e2ceb3adee)
 
+the file which is oened by giving the first command we ate the below 
+
+
+```
+
+[Unit]
+Description=Slice that limits docker resources 
+Before=slices.target
+[Slice]
+CPUAccounting=true
+CPUQuota=50%    
+MemoryAccounting=true
+MemoryHigh=2G  
+MemoryMax=3G 
+MemoryMaxSwap=10G
+
+```
+
+
+![Screenshot from 2023-10-10 11-07-55](https://github.com/C191068/Khatami_containernet/assets/89090776/2c8e5812-5923-485d-85c4-e0bfccb3d5f0)
+
+
 ![Screenshot from 2023-10-09 15-03-49](https://github.com/C191068/Khatami_containernet/assets/89090776/6f5d77c0-24e4-45c4-81fe-b0aeb6d4121c)
+
 
 ![Screenshot from 2023-10-09 15-04-48](https://github.com/C191068/Khatami_containernet/assets/89090776/eb018d2d-21b4-4f88-84f4-b529e168c848)
 
@@ -37,7 +63,6 @@ then we kill those those process
 ![Screenshot from 2023-10-09 15-05-21](https://github.com/C191068/Khatami_containernet/assets/89090776/af1453db-97ee-4fd0-bd11-5cc2c8deb668)
 
 
-![Screenshot from 2023-10-10 11-07-55](https://github.com/C191068/Khatami_containernet/assets/89090776/2c8e5812-5923-485d-85c4-e0bfccb3d5f0)
 
 ![Screenshot from 2023-10-10 12-38-57](https://github.com/C191068/Khatami_containernet/assets/89090776/1053d002-ceee-4e07-89ae-4e1042920b6a)
 
