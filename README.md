@@ -8,7 +8,7 @@ must be under above directory
 
 ![Screenshot from 2023-10-07 12-02-16](https://github.com/C191068/Khatami_containernet/assets/89090776/2d8f212e-ba10-4aa5-9945-50260eaf0b82)
 
-not installing under ython3 directory such error will occur 
+not installing under python3 directory such error will occur 
 
 
 https://stackoverflow.com/questions/19256127/two-versions-of-python-on-linux-how-to-make-2-7-the-default
@@ -16,9 +16,14 @@ https://stackoverflow.com/questions/19256127/two-versions-of-python-on-linux-how
 
 ![Screenshot from 2023-10-09 11-39-30](https://github.com/C191068/Khatami_containernet/assets/89090776/441d2f24-7aaf-41c4-95e2-b597702765f9)
 
+the above error occurs for some process running at port 6653
+
 ![Screenshot from 2023-10-09 14-17-57](https://github.com/C191068/Khatami_containernet/assets/89090776/d449912c-c233-4b1e-82f8-5b8c214f72b4)
+then we kill those those process
+
 
 ![Screenshot from 2023-10-09 14-18-46](https://github.com/C191068/Khatami_containernet/assets/89090776/f840ec76-d83b-4c65-a9ce-9304f00ba582)
+
 
 ![Screenshot from 2023-10-09 14-26-48](https://github.com/C191068/Khatami_containernet/assets/89090776/7a2fe5f5-d4a5-4d32-aa0f-3bd8c5fee253)
 
