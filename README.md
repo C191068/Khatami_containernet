@@ -51,6 +51,14 @@ MemoryMaxSwap=10G
 ```
 
 
+learned it from below
+
+https://baykara.medium.com/docker-resource-management-via-cgroups-and-systemd-633b093a835c
+
+
+
+
+
 ![Screenshot from 2023-10-10 11-07-55](https://github.com/C191068/Khatami_containernet/assets/89090776/2c8e5812-5923-485d-85c4-e0bfccb3d5f0)
 
 
