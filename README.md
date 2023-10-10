@@ -61,8 +61,32 @@ https://baykara.medium.com/docker-resource-management-via-cgroups-and-systemd-63
 
 ![Screenshot from 2023-10-10 11-07-55](https://github.com/C191068/Khatami_containernet/assets/89090776/2c8e5812-5923-485d-85c4-e0bfccb3d5f0)
 
+the file oened by the second command and paste the below
+
+```
+
+[Service] 
+Slice=docker-engine.slice
+
+```
+
+
+
 
 ![Screenshot from 2023-10-09 15-03-49](https://github.com/C191068/Khatami_containernet/assets/89090776/6f5d77c0-24e4-45c4-81fe-b0aeb6d4121c)
+
+the above is also file of second command and we paste the below 
+
+```
+
+ExecStart=/usr/bin/dockerd --exec-opt native.cgroupdriver=systemd
+
+
+```
+
+
+
+
 
 
 ![Screenshot from 2023-10-09 15-04-48](https://github.com/C191068/Khatami_containernet/assets/89090776/eb018d2d-21b4-4f88-84f4-b529e168c848)
