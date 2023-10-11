@@ -106,6 +106,8 @@ we paste the below
 
 ![Screenshot from 2023-10-10 12-38-57](https://github.com/C191068/Khatami_containernet/assets/89090776/1053d002-ceee-4e07-89ae-4e1042920b6a)
 
+it is paused at s3 and remain paused for a long time <br> 
+
 ![Screenshot from 2023-10-10 14-55-37](https://github.com/C191068/Khatami_containernet/assets/89090776/2cc96f17-d8f1-46af-abbb-e7825921c081)
 
 ![Screenshot from 2023-10-10 14-59-44](https://github.com/C191068/Khatami_containernet/assets/89090776/a068661a-4275-4aab-8d6f-9740931abc9d)
