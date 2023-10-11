@@ -113,7 +113,7 @@ learned the above from this video below
 
 https://youtu.be/un7uScz5g5s?si=XaoKEYJjDu9bKkHK
 
-in the above I am assigning i addresses to two host PCs <br>
+in the above I am assigning ip addresses to two host PCs <br>
 
 ![Screenshot from 2023-10-10 14-59-44](https://github.com/C191068/Khatami_containernet/assets/89090776/a068661a-4275-4aab-8d6f-9740931abc9d)
 
