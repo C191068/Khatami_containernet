@@ -55,7 +55,7 @@ learned it from below
 
 https://baykara.medium.com/docker-resource-management-via-cgroups-and-systemd-633b093a835c
 
-
+where we have assigned i addresses 
 
 
 
@@ -109,6 +109,11 @@ we paste the below
 it is paused at s3 and remain paused for a long time <br> 
 
 ![Screenshot from 2023-10-10 14-55-37](https://github.com/C191068/Khatami_containernet/assets/89090776/2cc96f17-d8f1-46af-abbb-e7825921c081)
+learned the above from this video below
+
+https://youtu.be/un7uScz5g5s?si=XaoKEYJjDu9bKkHK
+
+in the above I am assigning i addresses to two host PCs <br>
 
 ![Screenshot from 2023-10-10 14-59-44](https://github.com/C191068/Khatami_containernet/assets/89090776/a068661a-4275-4aab-8d6f-9740931abc9d)
 
@@ -139,7 +144,7 @@ it is paused at s3 and remain paused for a long time <br>
 https://youtu.be/RpgX07v7DiY?si=J2k1N1TpuYt9urbd
 
 
-https://youtu.be/un7uScz5g5s?si=XaoKEYJjDu9bKkHK
+
 
 
 
